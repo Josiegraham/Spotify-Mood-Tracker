@@ -2,7 +2,7 @@
 
 ## Description
 
-**Mood Tracker Auth** is a Chrome extension integrated with Spotify to track your mood and listening habits. It uses Spotify's OAuth for authentication and offers an engaging user interface to monitor your mood over time. The data collected is processed using a Flask server and stored in a MySQL database for further analysis. This is coced to work on port 3000 (sending data to mySQL) and port 5000 (retrieveing data from SQL for plots), make sure these ports are clear or change the port used in the code. 
+**Mood Tracker Auth** is a Chrome extension integrated with Spotify to track your mood and listening habits. It uses Spotify's OAuth for authentication and offers an engaging user interface to monitor your mood over time. The data collected is processed using a Flask server and stored in a MySQL database for further analysis. This is coded to work on port 3000 (sending data to mySQL) and port 5000 (retrieveing data from SQL for plots), make sure these ports are clear or change the port used in the code. 
 
 ## Features
 
