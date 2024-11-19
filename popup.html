@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>How are you feeling?</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    #mood-slider, #arousal-slider {
+      width: 300px;
+    }
+    #mood-value, #arousal-value {
+      font-size: 24px;
+    }
+    button {
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #68ba6a;
+    }
+  </style>
+</head>
+<body>
+  <div id="moodPage"></div>
+  <h1>How are you feeling right now?</h1>
+    <input type="range" id="mood-slider" min="1" max="10" step="1" value="5">
+    <div id="mood-value">Mood: 5</div>
+  </div>
+
+  <div>
+    <input type="range" id="arousal-slider" min="1" max="10" step="1" value="5">
+    <div id="arousal-value">Arousal: 5</div>
+  </div>
+    <!-- buttons on the first page -->
+  <button id="submit-mood">Submit Mood</button>
+  <button id="showAnalysis">Show Analysis</button>
+
+  <script src="popup.js"></script> 
+</body>
+</html>
+
