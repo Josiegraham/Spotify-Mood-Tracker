@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    width: 250px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.slider-container {
+    margin-bottom: 15px;
+}
+
+.slider {
+    width: 100%;
+}
+
+button {
+    background-color: #5e4caf;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #6b45a0;
+}
