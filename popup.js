@@ -57,8 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Open the Flask analysis page
     window.open('http://127.0.0.1:5000/plot', '_blank');
   });
-}); // <-- Ensure this closing bracket is here
-
+}); 
 
 
 
