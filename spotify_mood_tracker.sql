@@ -25,7 +25,7 @@ CREATE TABLE spotify_tokens (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
--- Recreate the moods table
+
 CREATE TABLE moods (
     mood_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
@@ -34,7 +34,7 @@ CREATE TABLE moods (
     recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Recreate the listening_history table
+
 CREATE TABLE listening_history (
     history_id INT AUTO_INCREMENT PRIMARY KEY,
     mood_id INT,  -- Foreign key reference to moods
