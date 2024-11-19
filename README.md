@@ -68,9 +68,9 @@
     python flask_server.py
 
 7. Load the Chrome extension:
---Open Chrome and go to chrome://extensions.
---Enable **Developer mode**.
---Click **Load unpacked** and select the directory containing the extension files.
+- Open Chrome and go to chrome://extensions.
+- Enable **Developer mode**.
+- Click **Load unpacked** and select the directory containing the extension files.
 
 
 ### Usage
