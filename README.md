@@ -85,5 +85,6 @@
 - **popup.js:** Contains the logic for mood submission and interaction with the backend.
 - **server.js:** Node.js backend for managing Spotify API interactions and database operations.
 - **flask_server.py:** Flask server for visualising mood and listening data.
+- **flask_styles.css:** Styles the Flask server for the plots of the user's data.
 - **styles.css:** Styling for the extension's popup interface.
 - **spotify_mood_tracker.sql:** SQL schema for setting up the MySQL database.
