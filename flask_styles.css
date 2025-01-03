@@ -1,0 +1,45 @@
+/* Spotify-Inspired Enhancements */
+.navbar {
+    background-color: #181818;
+    color: #1DB954;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.navbar span:hover {
+    color: #1ed760;
+    transition: color 0.3s ease;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.plot-container {
+    background-color: #181818;
+    border: 1px solid #1DB954;
+    border-radius: 15px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin: 30px auto;
+    transition: transform 0.3s ease;
+}
+
+.plot-container:hover {
+    transform: translateY(-5px);
+}
